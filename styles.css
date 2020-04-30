@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+button {
+    position: relative;
+    display: block;
+    margin: auto;
+    z-index: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    display: none;
+    align-items: center;
+}
+
+.overlay.show {
+    display: flex;
+}
+
+.popup {
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    margin: auto;
+    border: 1px solid black;
+    font-size: 28px;
+    padding: 10px;
+}
